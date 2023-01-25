@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/app_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:padding="@dimen/spacing_medium"
+            android:typeface="monospace"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:textSize="20sp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffff"
+            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTintMode="src_over"
+            android:elevation="50dp"
+            android:focusable="true"
+            android:iconifiedByDefault="false"
+            android:inputType="phone"
+            android:queryBackground="@color/colorWhite"
+            android:visibility="gone"></SearchView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Weighments For this Batch!!"
+            android:id="@+id/textStatus"
+            android:textColor="@color/colorPinkDark"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send SMS"
+                android:textColor="@drawable/buttonblue_text_color"
+                android:background="@drawable/bgblue_buttons"
+                android:visibility="visible"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify Data"
+                android:textColor="@drawable/buttonblue_text_color"
+                android:background="@drawable/bgblue_buttons"
+                android:visibility="visible"
+                android:layout_margin="@dimen/spacing_medium"
+                android:layout_weight=" 1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Vehicle"
+                android:textColor="@color/colorBlack" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTractor"
+                android:inputType="textCapCharacters" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Trailer"
+                android:id="@+id/textView"
+                android:textColor="@color/colorBlack" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTrailer"
+                android:inputType="textCapCharacters" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvUsers"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ff8db3e1"
+            android:dividerHeight="2.0dip"
+            android:choiceMode="singleChoice"
+            android:layout_weight="2.4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+
+
+    </LinearLayout>
+</LinearLayout>

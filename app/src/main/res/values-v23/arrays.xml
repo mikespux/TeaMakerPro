@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="pref_text_color_values">
+
+        <item>#727272</item>
+        <item>#212121</item>
+        <item>#B2EBF2</item>
+        <item>#00BCD4</item>
+        <item>#0000FF</item>
+        <item>#0EC654</item>
+        <item>#8DC41C</item>
+        <item>#99D51E</item>
+        <item>#FF5722</item>
+        <item>#E91E63</item>
+        <item>#9966CC</item>
+        <item>#FF033E</item>
+        <item>#00FFFF</item>
+        <item>#7FFFD4</item>
+        <item>#A52A2A</item>
+        <item>#007FFF</item>
+        <item>#FAE7B5</item>
+        <item>#D891EF</item>
+        <item>#FE6F5E</item>
+    </string-array>
+    <string-array name="pref_text_color_names">
+        <item>Gery</item>
+        <item>Black</item>
+        <item>Blue Light</item>
+        <item>Blue</item>
+        <item>Blue Dark</item>
+        <item>Green Light</item>
+        <item>Green Dark</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Rose</item>
+        <item>Amethyst</item>
+        <item>American Rose</item>
+        <item>Aqua</item>
+        <item>Aquamarine</item>
+        <item>Auburn</item>
+        <item>Azure</item>
+        <item>Banana Mania</item>
+        <item>Bright Lilac</item>
+        <item>Bittersweet</item>
+    </string-array>
+
+
+    <string-array name="pref_background_values">
+        <item>#FFFFFF</item>
+        <item>#E6E6E6</item>
+        <item>#B2EBF2</item>
+        <item>#00BCD4</item>
+        <item>#0000FF</item>
+        <item>#0EC654</item>
+        <item>#8DC41C</item>
+        <item>#99D51E</item>
+        <item>#FF5722</item>
+        <item>#E91E63</item>
+        <item>#9966CC</item>
+        <item>#FF033E</item>
+        <item>#00FFFF</item>
+        <item>#7FFFD4</item>
+        <item>#A52A2A</item>
+        <item>#007FFF</item>
+        <item>#FAE7B5</item>
+        <item>#D891EF</item>
+        <item>#FE6F5E</item>
+    </string-array>
+    <string-array name="pref_background_names">
+        <item>White</item>
+        <item>Gery</item>
+        <item>Blue Light</item>
+        <item>Blue</item>
+        <item>Blue Dark</item>
+        <item>Green Light</item>
+        <item>Green Dark</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Rose</item>
+        <item>Amethyst</item>
+        <item>American Rose</item>
+        <item>Aqua</item>
+        <item>Aquamarine</item>
+        <item>Auburn</item>
+        <item>Azure</item>
+        <item>Banana Mania</item>
+        <item>Bright Lilac</item>
+        <item>Bittersweet</item>
+    </string-array>
+    <string-array name="pref_text_size">
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+</resources>

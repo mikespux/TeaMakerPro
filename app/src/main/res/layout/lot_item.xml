@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtAccountId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium">
+
+        <TextView
+            android:id="@+id/tvRnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_xsmall"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:src="@drawable/dotted"
+        android:layerType="software" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_marginBottom="5dp">
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:text="Date"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lot ID:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:id="@+id/tvLotID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:text="LotID"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factory Weight:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:id="@+id/tvFactoryWt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:text="Factory Weight"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field Weight:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:id="@+id/tvFieldWt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:text="Field Weight"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+
+        </TableRow>
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Variance:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:id="@+id/tvVariance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:text="Variance"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+
+        </TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xsmall"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:src="@drawable/dotted"
+            android:layerType="software" />
+
+        <TableRow android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Made Tea:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:paddingRight="2dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMadeTea"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:text="Made Tea"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorBlack" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvOpen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/spacing_mlarge"
+        android:text="OPEN"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="end|center"
+        android:layout_weight="1"
+        android:background="@drawable/bg_buttons"
+        android:textColor="@drawable/button_text_color"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvClose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/spacing_mlarge"
+        android:text="CLOSE"
+        android:textStyle="bold"
+        android:textColor="@drawable/buttonb_text_color"
+        android:gravity="center"
+        android:layout_gravity="end|center"
+        android:layout_weight="1"
+        android:background="@drawable/bgb_buttons"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large">
+
+        <TextView
+            android:id="@+id/tvView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="1"
+            android:text="VIEW"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="end|center"
+            android:background="@drawable/btn_rounded_primary"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvWeigh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/spacing_small"
+            android:text="WEIGH"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="end|center"
+            android:background="@drawable/btn_rounded_primary"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

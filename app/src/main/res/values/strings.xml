@@ -1,0 +1,603 @@
+<resources>
+    <string name="app_name">Tea Maker Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sync">SYNC</string>
+    <string name="app_version">Tea Maker Pro (1.0.0)</string>
+    <string name="defaultURL">http://</string>
+    <string name="defaultKey">LE7FH8N4T2</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="wifi">WIFI</string>
+    <string name="wipaddress">WI-FI IP Address <font color="red">*</font></string>
+    <string name="mipaddress">Mobile Data IP Address <font color="red">*</font></string>
+    <string name="port">Port </string>
+    <string name="application">Application <font color="red">*</font></string>
+    <string name="prefix">Company ID<font color="red">*</font></string>
+    <string name="admusername">Username <font color="red">*</font></string>
+    <string name="admpass">Password <font color="red">*</font></string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+
+    <!--Kiosk Mode lock unlock-->
+    <string name="kiosk_mode">Kiosk Mode</string>
+    <string name="phone_settings">Phone Settings</string>
+    <string name="data_settings">Internet Settings</string>
+    <string name="bluetooth_settings">Bluetooth Settings</string>
+    <string name="dial_pad">Dial Pad</string>
+    <string name="enter_password">Enter Pin</string>
+    <string name="invalid_password">Invalid password.</string>
+    <string name="setting_title">Kiosk Mode Setting</string>
+    <string name="setting_lock_device">Lock</string>
+    <string name="setting_unlock_device">Unlock</string>
+    <string name="setting_device_locked">Device is locked</string>
+    <string name="setting_device_unlocked">Device is unlocked</string>
+
+    <string name="kiosk_mode_enabled">Kiosk Mode enabled</string>
+    <string name="kiosk_mode_disabled">Kiosk Mode disabled</string>
+    <string name="enter_kiosk_mode">Enter Kiosk Mode</string>
+    <string name="exit_kiosk_mode">Exit Kiosk Mode</string>
+    <string name="kiosk_not_permitted">Kiosk Mode not permitted</string>
+    <string name="not_device_admin">This app is not a device admin!</string>
+    <string name="not_device_owner">This app is not the device owner!</string>
+
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_import">Import Master</string>
+    <string name="nav_item_refresh">Refresh Masters</string>
+    <string name="nav_item_import_user">Import Users</string>
+    <string name="nav_item_farmers">Farmers Reciepts</string>
+    <string name="nav_item_batches">Batch List</string>
+    <string name="nav_item_search">Search Farmer</string>
+    <string name="nav_item_bluetooth">Bluetooth Settings</string>
+    <string name="nav_item_paired">Pair Devices</string>
+    <string name="nav_item_settings">General Settings</string>
+    <string name="nav_mode_settings">Mode Settings</string>
+    <string name="nav_sub_menu">More</string>
+    <string name="nav_sub_menu_item01">Reset Base Date</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="nav_sub_menu_changepass">Change Password</string>
+    <string name="nav_sub_menu_kioskmode">Kiosk Mode</string>
+    <string name="drawer_header_text">Username</string>
+
+    <string name="search_hint">Search</string>
+    <string name="open_shift">NEW</string>
+    <string name="close_shift">CLOSE</string>
+    <string name="shift_on">Running Shift</string>
+    <string name="opened_on">Date</string>
+    <string name="export_d">Export Delivery</string>
+    <string name="export_b">Export Batch</string>
+
+    <string name="BuyProd"><u>Sourcing From Agent</u></string>
+    <string name="BuyProdF"><u>Sourcing From Outgrower</u></string>
+    <string name="Username">User Name</string>
+    <string name="Password">Password</string>
+    <string name="Email">E-mail</string>
+    <string name="ConfirmPassword">Re-type Password</string>
+    <string name="Fullname">Full Name</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_sign_out">Sign Out</string>
+    <string name="username_is_short">Username is short</string>
+    <string name="invalid_email">E-mail Invalid</string>
+    <string name="password_is_short">Password is short</string>
+    <string name="Passwords_does_not_much">Passwords does not much</string>
+    <string name="ServerError">Oops!! Didn\'t receive any data from server!</string>
+    <string name="LoginError">Please type correct username/password</string>
+    <string name="add_farmer">ADD</string>
+    <string name="add_user">Add User</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_print">Print</string>
+    <!-- Tabs-->
+    <string name="tab0">Weighs</string>
+    <string name="tab1">Purchases</string>
+    <string name="tab2">Batches</string>
+
+    <string name="please_wait">Please Wait …</string>
+    <string name="logging_out">Logging Out …</string>
+    <string name="going_manual">Going Manual …</string>
+
+    <string name="spinner_prompt_shop">Select Shop</string>
+    <string name="spinner_prompt_ledger">Select Sub-Ledger</string>
+    <string name="spinner_prompt_zone">Select Zone</string>
+    <string name="spinner_prompt_factory">Select Factory</string>
+    <string name="spinner_prompt_session">Select Session</string>
+    <string name="spinner_prompt_route">Select Route</string>
+    <string name="spinner_prompt_shed">Select Shed</string>
+    <string name="spinner_prompt_agent">Select Agent</string>
+    <string name="spinner_prompt_produce">Select Produce</string>
+    <string name="spinner_prompt_grade">Select Grade</string>
+    <string name="spinner_prompt_variety">Select Variety</string>
+    <string name="spinner_prompt_warehouse">Select Warehouse</string>
+    <string name="spinner_prompt_transporter">Select Transporter</string>
+    <string name="spinner_prompt_managed">Select</string>
+    <string name="ScaleError">Please select Scale Model to Weigh</string>
+    <!--Buttons -->
+    <string name="btnSingle">Add Farmer</string>
+    <string name="btnRoute">Add Farmers by Route</string>
+
+    <string name="btnClear">Clear ALL</string>
+    <string name="btnClearRoute">Clear by Route</string>
+
+    <string name="btnSave">Save</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDel">Delete</string>
+    <!--Titles-->
+    <string name="title_users">Users</string>
+    <string name="title_agent">Agents</string>
+    <string name="title_company">Company Setup</string>
+    <string name="title_factory">Factories</string>
+    <string name="title_zone">Zones</string>
+
+    <string name="title_weigh_sorted">WEIGH SORTED</string>
+    <string name="title_produce">Produce</string>
+    <string name="title_grade">Grades</string>
+    <string name="title_upload">Upload</string>
+
+
+    <string name="device_details">Device Details</string>
+    <string name="device_phone">Device Phone</string>
+    <string name="device_serial">Device Serial</string>
+    <string name="device_factory">Device Factory</string>
+    <!-- Company Setup   -->
+    <string name="company_details">Company Details</string>
+    <string name="company_prefix">Prefix</string>
+    <string name="company_name">Name</string>
+    <string name="company_letterbox">LetterBox</string>
+    <string name="company_postalcode">Postal Code</string>
+    <string name="company_postalname">Post Name</string>
+    <string name="company_postregion">Region</string>
+    <string name="company_posttel">Telephone</string>
+    <!--Receipt settings-->
+    <string name="receiptSettings">Receipt Settings</string>
+    <string name="Language">Receipt Language</string>
+    <string name="LanguageSummary">Choose Preferred Language</string>
+    <string name="Template">Receipt Template</string>
+    <string name="TemplateSummary">Choose Preferred Template</string>
+
+
+    <!-- Admob unit ad -->
+    <string name="ad_unit_id">pub-6485677546432107/1100661008</string>
+
+
+    <!--Usertype -->
+    <string-array name="usertype">
+        <item>CLERK</item>
+        <item>MANAGER</item>
+    </string-array>
+
+    <!--Managedfarm -->
+    <string-array name="managedfarm">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!--Batchsession -->
+    <string-array name="batchsession">
+        <item>Select …</item>
+        <item>Morning</item>
+        <!--<item>Mid-Morning</item>-->
+        <item>Afternoon</item>
+        <item>Evening</item>
+    </string-array>
+
+    <!-- Printer -->
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+
+    <string name="text_connect">Connect</string>
+    <string name="text_disconnect">Disconnect</string>
+
+    <string name="text_enable_bluetooth">Enable Bluetooth</string>
+    <string name="text_disable_bluetooth">Disable Bluetooth</string>
+
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+
+    <string name="text_pair">Pair</string>
+
+
+    <string name="text_print_demo">Print Demo</string>
+    <string name="text_print_barcode">Print Barcode</string>
+    <string name="text_print_image">Print Image</string>
+    <string name="text_print_receipt">Print Receipt</string>
+    <string name="text_print_text">Print Text</string>
+
+    <!--Preferences String (Settings Activity)-->
+
+    <string name="General_settings">General</string>
+    <string name="avatar">Avatar</string>
+    <string name="avatar_is_not_visible">Invisible</string>
+    <string name="Settings">SETTINGS</string>
+
+    <string name="fab_button_animation">Floating Button Animation</string>
+    <string name="header_Ads">Ads Visibility</string>
+    <string name="ads_is_not_visible">Invisible</string>
+    <string name="ads_is_visible">Visible</string>
+    <string name="pref_text_color_message_dialog">Text Color </string>
+    <string name="pref_text_color_name_dialog">Text Color Name</string>
+    <string name="pref_body">Body And Date</string>
+    <string name="pref_name">Name</string>
+    <string name="pref_text_size_conversation_dialog"> Text  Size </string>
+    <string name="summary_color_body_date">Customize the text color of body and date</string>
+    <string name="summary_size_body_date">Customize the text size of body and date</string>
+    <string name="summary_size_name">Customize the text size of name</string>
+    <string name="summary_color_name">Customize the text color of name</string>
+    <string name="show_avatar_toolbar">Avatar of toolbar Visibility</string>
+    <string name="pref_background_message_dialog">Background</string>
+    <string name="keyboard_start_visible">Keyboard</string>
+    <string name="first_upper_letter">First letter</string>
+    <string name="first_upper_letter_summary">Upper case</string>
+    <string name="first_upper_letter_summary_on">Upper case</string>
+    <string name="first_upper_letter_summary_off">Lower case</string>
+    <string name="show_contact_picture">Display contact pictures</string>
+    <string name="pref_text_size_message_dialog">Text Size Message</string>
+    <string name="pref_text_size_name_dialog">Text size </string>
+    <string name="conversation_animation_effect">Animation and Effect</string>
+    <string name="hold_message">Old messages</string>
+    <string name="receiver_notification_off">Notifications disabled</string>
+    <string name="receiver_notification_on">Notifications enabled</string>
+    <string name="pref_app_name">General Settings</string>
+    <string name="keyboard_close_send">Keyboard</string>
+    <string name="keyboard_close_send_off">The keyboard does not disappear after sending a message</string>
+    <string name="keyboard_close_send_on">The keyboard disappears after sending a message</string>
+    <string name="title_settings">Settings</string>
+    <string name="UserStatus">Status</string>
+    <string name="OnlineStatus">Online</string>
+    <string name="OfflineStatus">Offline</string>
+    <string name="See_profile">Profile</string>
+    <string name="remove_conversation">Remove</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="transfer">Transfer</string>
+    <string name="Status">Science is a beautiful and emotional human endeavor, says Brannon Braga, executive producer and director</string>
+    <string name="SomethingWentWrong">Something Went Wrong</string>
+    <string name="title_hashtag">hashtag</string>
+    <string name="title_publish">Publish</string>
+    <string name="publicPrivacy">To Public</string>
+    <string name="urStatus">Write Something</string>
+    <string name="privatePrivacy">To Friends</string>
+    <string name="changed_to_private">Privacy changed to private</string>
+    <string name="changed_to_public">Privacy changed to public</string>
+    <string name="Error_empty_post">You can\'tshare an empty post</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="Insert_a_link">Insert a link</string>
+    <string name="Not_registered">There is no one registered with this name</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="insertEmail">Insert your email</string>
+    <string name="rest">Reset Password</string>
+    <string name="title_disclaimer">Disclaimer</string>
+    <string name="username">User ID:</string>
+    <string name="menu_exit">Exit</string>
+    <string name="title_activity_login">Easyweigh</string>
+    <string name="title_activity_main">Easyweigh</string>
+    <string name="password">Password:</string>
+    <string name="hintUserID">User ID</string>
+    <string name="hintPin">Pin</string>
+    <string name="bLogin">Log In</string>
+    <string name="tvProduce">Select Produce:</string>
+    <string name="tvVariety">Select Produce Variety:</string>
+    <string name="tvGrade">Select Produce Grade:</string>
+    <string name="tvPrice">Enter a price:</string>
+    <string name="hintProduce">Enter The Produce Code</string>
+    <string name="prefs">Preferences</string>
+    <string name="bAccept">Accept</string>
+    <string name="quit">Quit</string>
+    <string name="tvRoute">Select Zone</string>
+    <string name="tvShed">Select Shed</string>
+    <string name="tvMember">Enter Farmer No:</string>
+    <string name="hintFirstName">First Name:</string>
+    <string name="hintLastName">Last Name:</string>
+    <string name="tvFirstName">First Name</string>
+    <string name="tvLastName">Last Name</string>
+    <string name="tvUserId">User ID</string>
+    <string name="tvPin">User Pin</string>
+    <string name="tvUserLevel">User Level</string>
+    <string name="tvMemberNo">Customer No:</string>
+    <string name="tvGross">Reading</string>
+    <string name="tvTotalkgs">Total Kgs</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+    <string name="connect_terminal">Connect Easyway Terminal</string>
+    <string name="tvStringConsignmentNo">Batch No:</string>
+    <string name="tvTitle">Create Consignment</string>
+    <string name="tvStringOpenTime">Opening Time</string>
+    <string name="tvBatchNo">Consignment Number:</string>
+    <string name="tvWeighingPeriod">Weighing Period</string>
+    <string name="tvStringTotalKgs">Total Kgs</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="aler_dialog_yes">YES</string>
+    <string name="alert_dialog_print">PRINT</string>
+    <string name="alert_dialog_quit">QUIT</string>
+    <string name="alert_dialog_no">NO</string>
+    <string name="alet_dialog_cancel">Cancel</string>
+    <string name="tvCurrentPin">Current PIN</string>
+    <string name="tvNewPIN">New PIN</string>
+    <string name="tvConfirmPIN">Confirm PIN</string>
+    <string name="tvShowFactoryCode">Factory Code</string>
+    <string name="tvShowFactoryTitle">Factory Title</string>
+    <string name="scanning">Scanning for devices …</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="tvProduceCode">Produce Code:</string>
+    <string name="tvProduceTitle">Produce Title:</string>
+    <string name="stShedName">Shed Name</string>
+    <string name="stRouteCode">Zone Code</string>
+    <string name="stDivisionCode">Division Code</string>
+    <string name="stFarmerCode">Farmer No</string>
+    <string name="stFarmerName">Farmer :</string>
+    <string name="stShedCode">Shed Code</string>
+    <string name="ShedDetails">Shed Details</string>
+    <string name="error_connect_lost">Bluetooth Connection Lost!</string>
+    <string name="error_connect_failed">Bluetooth Connection Failed</string>
+    <string name="sampleText">Sample Text</string>
+    <string name="sampleWeight">0.0</string>
+    <string name="desc">Image Description</string>
+    <string name="MyDevice">Serial Adapter</string>
+    <string name="MyDevice2">ACC7709</string>
+    <string name="ErrorMessage">Error Message Here</string>
+    <string name="tvMemberName">Customer Name:</string>
+    <string name="tvClose">Close Batch</string>
+    <string name="tvDispatch">Export</string>
+    <string name="upload">Upload Weighments</string>
+    <string name="netWeight">Net Weight</string>
+    <string name="tareWeight">Tare Weight</string>
+    <string name="moisture">Moisture Provision</string>
+    <string name="terminalID">Terminal ID</string>
+    <string name="autoLogout">User Session Timeout</string>
+    <string name="defaultValue">0</string>
+    <string name="receiptCounter">Receipt Counter</string>
+    <string name="rdFarmers">Famers</string>
+    <string name="rdSheds">Sheds</string>
+    <string name="tvWhich">Select Master File to Import</string>
+    <string name="tvTareWeight">Tare Weight:</string>
+    <string name="currentTare">Current Tare</string>
+    <string name="factoryCode">Select Factory:</string>
+    <string name="truckNo">Enter Truck No:</string>
+    <string name="tvFrom">From:</string>
+    <string name="tvTo">To:</string>
+    <string name="tvDate">Date:</string>
+    <string name="tvBatch">Batch:</string>
+    <string name="trailerNo">Weighing Period:</string>
+    <string name="Add">Add</string>
+    <string name="AddVariety">"Manage
+Varieties"</string>
+    <string name="AddGrade">"Manage
+Grades"</string>
+    <string name="AddPrice">"Manage
+Prices"</string>
+    <string name="Remove">Remove</string>
+    <string name="Export">Tap Here to Export Data</string>
+    <string name="showData">Show Data</string>
+    <string name="exportData">Export Data</string>
+    <string name="printReport">Print Z Report</string>
+    <string name="printDeliveryReport">"Print Delivery Report"</string>
+    <string name="canSerial">Enter Can Serial:</string>
+    <string name="btFinish">Finish</string>
+    <string name="bagWeight">Bag Weight</string>
+    <string name="enablePrinting">Enable Printing</string>
+    <string name="enableQuality">Enable Quality</string>
+    <string name="enableNFC">Use NFC</string>
+    <string name="enableAutomaticDel">Auto generate Delivery No</string>
+    <string name="enableAutomaticTicket">Auto generate Ticket No</string>
+    <string name="enableSMS">Enable SMS</string>
+    <string name="enableSMSSummary">This will enable sending of SMS on Realtime Mode</string>
+    <string name="enableAdmin">Enable Admin Weighing</string>
+    <string name="enableAdminSummary">This will enable the admin to perform Sample Weighing</string>
+    <string name="bagWeightSummary">This will set the bag Weight</string>
+    <string name="enableSimilar">Allow Similar Consecutive Weighments</string>
+    <string name="prefSimilarSummary">This will enable similar consecutive weighments.</string>
+    <string name="enableShifts">Enable or Disable Shifts</string>
+    <string name="prefCategory">General Settings</string>
+    <string name="prefCategoryWeighing">Weighing Settings</string>
+    <string name="cloudSettings">Cloud Settings</string>
+    <string name="modeSettings">URL Mode Settings</string>
+    <string name="prefAutomaticDel">"This will enable an auto generated Delivery Number."</string>
+    <string name="prefAutomaticTicket">"This will enable an auto generated Ticket Number."</string>
+    <string name="prefTerminalSummary">"Enter a unique terminal id here.(Only 4 Characters Allowed)"</string>
+    <string name="prefTareSummary">"Enter tare weight here. It has to be greater than 0 and less than 9.9"</string>
+    <string name="prefMoistureSummary">"Enter Moisture %. It has to be greater than 0.0 and less than 25.0"</string>
+    <string name="prefReceiptCounterSummary">"Enter the receipt counter here. Receipt numbers will be generated as from the value set here"</string>
+    <string name="prefPrintingSummary">"This will enable printing.Make sure you have the printer set."</string>
+    <string name="prefQualitySummary">"This will enable quality. Make sure you have the quality set."</string>
+    <string name="prefNFC">"This will enable the use of NFC to search farmers."</string>
+
+    <string name="enableAlphaNumeric">"Enable Alphanumeric Characters"</string>
+    <string name="prefAlphaNumericSummary">This will enable AlphaNumeric Characters.</string>
+
+    <string name="enableShedFilter">"Enable Filter By Shed"</string>
+    <string name="prefShedFilterSummary">This will enable Filtering Farmers or Workers By Shed.</string>
+
+    <string name="enableMultiSearch">"Enable Multiple Search"</string>
+    <string name="prefMultiSearchSummary">This will enable Searching By Farmer No, National ID Or Mobile No.</string>
+    <string name="prefShiftsSummary">This will enable or disable use of shifts(AM/PM/PM1).</string>
+    <string name="enableCanSerial">Enable Can Serial</string>
+    <string name="prefCanSerialSummary">This will enable prompting for container serial number to store produce.</string>
+    <string name="stabilityReading">Samples to accept reading</string>
+    <string name="stabilitySummary">Number of readings to use to get a stable reading</string>
+    <string name="stabilityDefaultValue">2</string>
+    <string name="stabilityTime">Milliseconds of reading samples</string>
+    <string name="stabilitySummaryT">Number of milliseconds used to get a stable reading</string>
+    <string name="stabilityDefaultValueT">200</string>
+    <string name="sdSettings">Memory Card Settings</string>
+    <string name="sdServices">Enable SDCard Backup</string>
+    <string name="sdServicesSummary">This will enable saving of a Data Backup file to the Memory Card</string>
+
+    <string name="realtimeServices">Enable Realtime Services</string>
+    <string name="realtimeServicesSummary">This will enable realtime data transmission to the Easyway cloud platform</string>
+
+    <string name="autorefreshMaster">Enable Auto Refresh Masters</string>
+    <string name="autorefreshMasterSummary">This will enable auto refreshing of Masters on opening the First Batch</string>
+
+    <string name="cloudServices">Enable Cloud Services</string>
+    <string name="cloudServicesSummary">This will enable access to the Easyway cloud platform</string>
+    <string name="licenseKey">License Key</string>
+    <string name="licenseKeySummary">Enter your unique license key for use of Easyway cloud platform</string>
+    <string name="emptyDefaultValue" />
+
+    <string name="portalURL">WI-FI URL Portal</string>
+    <string name="portalURLSummary">Enter the WI-FI URL to access the Easyway cloud services</string>
+
+    <string name="mdportalURL">Mobile-Data URL Portal</string>
+    <string name="mdportalURLSummary">Enter the Mobile-Data URL to access the Easyway cloud services</string>
+
+    <string name="coPort">Port</string>
+    <string name="coPortSummary">Enter the Port to access the Easyway cloud services</string>
+
+    <string name="coApp">Application</string>
+    <string name="coAppSummary">Enter the Application to access the Easyway cloud services</string>
+
+    <string name="tvWelcome">Welcome to Easyweigh Mobile App</string>
+    <string name="overrideTareSummary">Set this to true if you wish to use a Tare Weight of 0.0</string>
+    <string name="buyingPrice">Enable Buying Price</string>
+    <string name="ebuyingPrice">Enter Buying Price</string>
+    <string name="overrideTareWeight">Override Tare Weight</string>
+    <string name="buyingPriceSummary">Enable this option to allow input of buying price in purchasing screen</string>
+    <string name="ebuyingPriceSummary">Enter the initial buying price</string>
+    <string name="selectDate">Select Date:</string>
+    <string name="selectBatch">Select Batch:</string>
+    <string name="easyweighVersionSettings">Easyweigh Settings</string>
+    <string name="scaleSettings">Scale Settings</string>
+    <string name="vModes">Verification Modes</string>
+    <string name="verificationModesSummary">Select the Verification Mode to be used with this phone</string>
+    <string name="scaleModel">Scale Model</string>
+    <string name="weighingAlgorithm">Weighing Algorithm</string>
+    <string name="scaleVersionSummary">Select the Easyweigh Scale Version to be used with this phone</string>
+    <string name="weighingAlgorithmSummary">Select the Weighing Algorithm to be used when recording weight</string>
+    <string name="app_descrip">Easyweigh Mobile App</string>
+    <string name="app_credits" />
+    <string name="copyright">Copyright 2015</string>
+    <string name="licenseInfo">Licensed to:</string>
+    <string name="netAccessMode">Select the your preferred internet access mode</string>
+    <string name="notSetUp"><u>Tap here to setup company info</u></string>
+    <string name="companyName">Company Name</string>
+    <string name="add1">Address Line 1</string>
+    <string name="add2">Address Line 2</string>
+    <string name="internetAccessModeSummary">Select your preferred mode of data access</string>
+    <string name="internetAccessMode">Preferred Data Access Mode</string>
+    <string name="fullname">Full Name</string>
+    <string name="pair_printer">Pair Printer</string>
+    <string name="pair_scale">Pair Scale</string>
+    <string name="pair_reader">Pair C/F Reader</string>
+
+    <string name="cf_reader">Read Farmer Card</string>
+    <string name="cf_reader_desc">Please make sure that the C/F Card Reader is connected. Click Connect to C/F Reader.</string>
+
+
+    <!-- menu_verify -->
+    <string name="label_serial">Serial (VSP)</string>
+    <string name="pref_serial">Serial (VSP)/SPP</string>
+
+    <string name="console">Console</string>
+    <string name="btn_send">Send</string>
+    <string name="label_rx">Rx:</string>
+    <string name="label_tx">Tx:</string>
+    <string name="pref_clear_text_after_sending">Clear text after sending</string>
+    <string name="about_serial">        The Serial (VSP) functionality allows text data to be sent from an Android
+        device to a Laird BLE module that is in VSP mode and back again.
+        This application can be used to remotely control the device through the use of AT commands.
+    </string>
+    <!-- General -->
+    <string name="btn_scan">Scan Scale</string>
+    <string name="btn_connecting">Connecting..</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="label_valid_device_tv">VSP Service Found:</string>
+    <string name="dash">-</string>
+    <!-- Batch -->
+    <string name="label_batch">Batch</string>
+    <string name="valueStatusDownloading">Sending!!</string>
+    <string name="btn_batch_select">Select File</string>
+    <string name="non_applicable">N/A</string>
+    <string name="about_batch">        The Batch functionality enables you to send scripts wirelessly over the air to the Laird BLE module.
+        These scripts can be custom-made and use AT commands to control the module remotely.
+        &lt;br/> &lt;br/>
+        &lt;b>Note:&lt;/b> The module needs to be in VSP command mode to work.
+     </string>
+    <!-- device details -->
+    <string name="label_device_details">Device Details</string>
+    <string name="label_device_name">Name: </string>
+    <string name="label_device_address">Address: </string>
+    <string name="label_device_rssi">RSSI: </string>
+    <string name="label_device_battery">Battery: </string>
+
+    <string name="device_admin_enabled">Administrator Features Enabled</string>
+    <string name="device_admin_disabled">Administrator Features Disabled</string>
+    <string name="spinner_prompt_farmer">Select Farmer</string>
+
+
+    <!--  BluetoothChat -->
+
+    <string name="title_connecting">connecting…</string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- Options Menu -->
+
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="EnrolID">Enrol ID</string>
+    <string name="Verify">Verify ID</string>
+    <string name="Identify">Search</string>
+    <string name="DeleteID">Delete ID</string>
+    <string name="ClearID">Clear</string>
+    <string name="EnrolHost">Enrol Template</string>
+    <string name="CaptureHost">Capture Template</string>
+    <string name="Match">Match Template</string>
+    <string name="WriteFPCard">Write FP Card</string>
+    <string name="ReadFPCard">Read FP Card</string>
+    <string name="FPCardMatch">Fingeprint Card Match</string>
+    <string name="CardSn">Read Card SN</string>
+    <string name="ReadDataCard">Read Card Data</string>
+    <string name="WriteDataCard">Write Card Data</string>
+
+    <string name="getdevsn">Device SN</string>
+    <string name="getbat">Battery Value</string>
+    <string name="getimage">Get Image</string>
+    <string name="getdata">Get Data</string>
+    <string name="getversion">Device Version</string>
+    <string name="printer_connected">Printer Connected</string>
+    <string name="reconnect_printer">Reconnect Printer</string>
+    <string name="scale_not_connected">Scale Not Connected</string>
+    <string name="fingerprint_search">FingerPrint Search</string>
+    <string name="manual_farmer_search">Manual Farmer Search</string>
+    <string name="read_card_search">Read Card Search</string>
+    <string name="sync_users">SYNC USERS</string>
+    <string name="sync_userso">OVERWRITE USERS</string>
+    <string name="sync_farmers">REFRESH</string>
+    <string name="clear">CLEAR</string>
+    <string name="action_clear">CLEAR CLOUDID</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshSummary">Updates Company Details &amp; Users</string>
+    <string name="refresh_masters">REFRESH MASTERS</string>
+    <string name="setup_masters">SETUP MASTERS</string>
+    <string name="setup_rmasters">ROUTE MASTERS</string>
+
+    <string name="product_name">Product Name</string>
+    <string name="weight">Weight:</string>
+    <string name="price">Price</string>
+    <string name="tax">Tax</string>
+    <string name="stock">Stock</string>
+    <string name="stock_is_low_please_update_stock">Stock is low. Please update stock</string>
+    <string name="available_stock">Available Stock</string>
+    <string name="search_here">Search Here. . . .</string>
+    <string name="no_product_found">No Product Found</string>
+    <string name="all_product">All Product</string>
+    <string name="reset">Reset</string>
+    <string name="product_category">Product Category</string>
+    <string name="menu_store" translatable="false">STORE</string>
+    <string name="total_price">Total: </string>
+    <string name="submit_order">Submit</string>
+    <string name="no_product_in_cart">No Product in Cart</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="error">Error</string>
+    <string name="camera_permission">Camera Permission Required</string>
+    <string name="product_added_to_cart">Product added to cart</string>
+    <string name="product_already_added_to_cart">Product Already Added to Cart</string>
+    <string name="product_added_to_cart_failed_try_again">Product added to cart failed! Try again</string>
+    <string name="product_removed_from_cart">Product removed from cart</string>
+    <string name="failed">Failed</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/prefCategory"
+        app:iconSpaceReserved="false">
+
+
+        <CheckBoxPreference
+            android:title="@string/enableAdmin"
+            android:key="enableAdmin"
+            android:summary="@string/enableAdminSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+
+        <CheckBoxPreference
+            android:title="@string/enableQuality"
+            android:key="enableQuality"
+            android:summary="@string/prefQualitySummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:title="@string/enableSimilar"
+            android:key="enableSimilar"
+            android:summary="@string/prefSimilarSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:title="@string/enableShifts"
+            android:key="enableShifts"
+            android:summary="@string/prefShiftsSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/sdSettings"
+        app:iconSpaceReserved="false">
+        <CheckBoxPreference
+            android:title="@string/sdServices"
+            android:key="sdServices"
+            android:summary="@string/sdServicesSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

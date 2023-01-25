@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:title="@string/modeSettings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:entries="@array/internetAccessModeNames"
+            android:title="@string/internetAccessMode"
+            android:key="internetAccessModes"
+            android:summary="@string/internetAccessModeSummary"
+            android:entryValues="@array/internetAccessModes"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <!--    <CheckBoxPreference-->
+    <!--        android:defaultValue="false"-->
+    <!--        android:key="enablePrinting"-->
+    <!--        android:summary="@string/prefPrintingSummary"-->
+    <!--        android:title="@string/enablePrinting"-->
+    <!--        app:iconSpaceReserved="false"-->
+    <!--        app:isPreferenceVisible="false"/>-->
+</PreferenceScreen>

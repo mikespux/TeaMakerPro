@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/whitestom_toast"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Select Date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorBlack" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="10-Nov-2022"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_rounded_primary"
+                        android:visibility="visible" />
+
+
+                </LinearLayout>
+
+
+                <ListView
+                    android:id="@+id/listviewLots"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:divider="@drawable/dotted"
+                    android:dividerHeight="2.0dip"
+                    android:choiceMode="singleChoice"
+                    android:layout_weight="1" />
+                <!--            <LinearLayout-->
+                <!--                android:orientation="vertical"-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:paddingBottom="5dp"-->
+                <!--                android:layout_margin="10dp"-->
+                <!--                android:layout_weight="0.5">-->
+
+                <!--                <LinearLayout-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content">-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:orientation="horizontal"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_margin="5dp">-->
+
+                <!--                        <TextView-->
+                <!--                            android:layout_width="wrap_content"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--                            android:text="NEW"-->
+                <!--                            android:layout_margin="10dp"-->
+                <!--                            android:textColor="@color/colorBlack"-->
+                <!--                            android:textStyle="bold" />-->
+                <!--                        -->
+
+
+                <!--                    </LinearLayout>-->
+
+                <!--                    <SearchView-->
+                <!--                        android:id="@+id/searchView"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="10dp"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        android:background="#ffffff"-->
+                <!--                        android:backgroundTint="@color/colorPrimary"-->
+                <!--                        android:backgroundTintMode="src_over"-->
+                <!--                        android:elevation="50dp"-->
+                <!--                        android:queryBackground="@color/colorWhite"-->
+                <!--                        android:focusable="true"-->
+                <!--                        android:iconifiedByDefault="false"-->
+                <!--                        android:inputType="phone"-->
+                <!--                        android:layout_marginStart="10dp" />-->
+                <!--                </LinearLayout>-->
+
+                <!--            </LinearLayout>-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

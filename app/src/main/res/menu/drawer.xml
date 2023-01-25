@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_item_home" />
+
+
+        <item
+            android:id="@+id/navigation_item_bluetooth"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="@string/nav_item_bluetooth" />
+
+        <item
+            android:id="@+id/navigation_item_paired"
+            android:icon="@drawable/ic_paired"
+            android:title="@string/nav_item_paired" />
+
+        <item
+            android:id="@+id/ChangePass"
+            android:icon="@drawable/ic_changepass"
+            android:title="@string/nav_sub_menu_changepass" />
+
+    </group>
+
+    <item android:title="@string/nav_sub_menu">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_basedate"
+                android:icon="@drawable/ic_dateset"
+                android:title="@string/nav_sub_menu_item01" />
+            <item
+                android:id="@+id/SignOutItem"
+                android:icon="@drawable/ic_sign_out"
+                android:title="@string/title_sign_out" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="store.activities.SecondActivity">
+    <item
+        android:id="@+id/action_master"
+        android:title="@string/setup_masters"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_route_master"
+        android:title="@string/setup_rmasters"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

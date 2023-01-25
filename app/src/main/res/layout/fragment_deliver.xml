@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <com.github.lzyzsd.circleprogress.CircleProgress
+                                android:id="@+id/circle_progress"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                custom:circle_progress="0"
+                                custom:circle_finished_color="#FF07D734"
+                                custom:circle_unfinished_color="#4285F4"
+                                custom:circle_text_color="#ffffff"
+                                custom:circle_suffix_text=" batch"
+                                custom:circle_text_size="14sp"
+                                android:layout_gravity="center" />
+
+                            <com.github.lzyzsd.circleprogress.DonutProgress
+                                android:id="@+id/donut_progress"
+                                android:layout_gravity="center"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                custom:donut_progress="20"
+                                custom:donut_unfinished_color="#FF07D734"
+                                custom:donut_finished_stroke_width="10dp"
+                                custom:donut_inner_bottom_text="Dispatch..."
+                                custom:donut_inner_bottom_text_size="9dp"
+                                custom:donut_inner_bottom_text_color="#4285F4"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No Batches to Deliver"
+                                android:id="@+id/txtUndelivered"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="16dp"
+                                android:typeface="sans"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp" />
+
+                            <TextView
+                                android:id="@+id/date"
+                                android:layout_gravity="center"
+                                android:hint="Always Dispatch Batches after closing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:ellipsize="none"
+                                android:fontFamily="sans-serif-thin"
+                                android:includeFontPadding="false"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal">
+
+                                <Button
+                                    android:id="@+id/btnDispatch"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Dispatch"
+                                    android:textColor="@drawable/button_text_color"
+                                    android:background="@drawable/bg_buttons"
+                                    android:layout_margin="10dp"
+                                    android:visibility="visible" />
+
+
+                                <Button
+                                    android:id="@+id/btnPrint"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Print"
+                                    android:textColor="@drawable/buttonb_text_color"
+                                    android:background="@drawable/bgb_buttons"
+                                    android:layout_margin="10dp"
+                                    android:visibility="gone" />
+
+                                <Button
+                                    android:id="@+id/btnComplete"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Complete"
+                                    android:textColor="@drawable/button_text_color"
+                                    android:background="@drawable/bg_buttons"
+                                    android:layout_margin="10dp"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:divider="@drawable/list_divider"
+                    android:dividerHeight="1.0dip"
+                    android:choiceMode="singleChoice"
+                    android:layout_weight="2.4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

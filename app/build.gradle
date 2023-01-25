@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            storeFile file('D:/EasywayProductionTracking/Keystore/Easykey.jks')
+            storePassword 'mikespux'
+            keyAlias '1.0.0'
+            keyPassword 'mikespux'
+        }
+    }
+    compileSdkVersion 33
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        applicationId 'com.easyway.pt'
+        minSdkVersion 19
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/notice.txt', 'META-INF/NOTICE.txt', 'META-INF/license.txt', 'META-INF/LICENSE.txt', 'META-INF/ASL2.0', 'META-INF/LICENSE', 'META-INF/NOTICE', 'META-INF/DEPENDENCIES']
+        }
+    }
+    productFlavors {
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+    implementation 'com.github.GrenderG:Toasty:1.5.0'
+
+    implementation files('src/main/libs/opencsv-2.3.jar')
+    implementation files('src/main/libs/commons-lang3-3.3.2.jar')
+    implementation files('src/main/libs/joda-time-2.0.jar')
+    implementation files('src/main/libs/ksoap2-android-assembly-2.4.jar')
+    implementation files('src/main/libs/java-json.jar')
+
+    implementation project(':library-circle-arc-progress')
+    implementation project(':searchablespinnerlibrary')
+    implementation project(':waterWaveProgress')
+    implementation project(':swipe-layout')
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation 'com.karumi:dexter:6.0.2'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+}

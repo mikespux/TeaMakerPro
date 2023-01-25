@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/scaleSettings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:entries="@array/VerificationModes"
+            android:title="@string/vModes"
+            android:key="vModes"
+            android:summary="@string/verificationModesSummary"
+            android:entryValues="@array/vModes"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:entries="@array/scaleVersionNames"
+            android:title="@string/scaleModel"
+            android:key="scaleVersion"
+            android:summary="@string/scaleVersionSummary"
+            android:entryValues="@array/scaleVersions"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:entries="@array/weighingAlgorithms"
+            android:title="@string/weighingAlgorithm"
+            android:key="weighingAlgorithm"
+            android:summary="@string/weighingAlgorithmSummary"
+            android:entryValues="@array/weighingAlgorithmsNames"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:maxLength="3"
+            android:title="@string/tareWeight"
+            android:key="tareWeight"
+            android:summary="@string/prefTareSummary"
+            android:defaultValue="@string/defaultValue"
+            android:inputType="numberDecimal"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:title="@string/bagWeight"
+            android:key="bagWeight"
+            android:summary="@string/bagWeightSummary"
+            android:defaultValue="99"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/prefCategoryWeighing"
+        app:iconSpaceReserved="false">
+        <EditTextPreference
+            android:maxLength="2"
+            android:title="@string/stabilityReading"
+            android:key="stabilityReadingCounter"
+            android:summary="@string/stabilitySummary"
+            android:defaultValue="@string/stabilityDefaultValue"
+            android:inputType="number"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:maxLength="3"
+            android:title="@string/stabilityTime"
+            android:key="milliSeconds"
+            android:summary="@string/stabilitySummaryT"
+            android:defaultValue="@string/stabilityDefaultValueT"
+            android:inputType="number"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false" />
+
+        <EditTextPreference
+            android:maxLength="3"
+            android:title="@string/moisture"
+            android:key="moisture"
+            android:summary="@string/prefMoistureSummary"
+            android:defaultValue="@string/defaultValue"
+            android:inputType="numberDecimal"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

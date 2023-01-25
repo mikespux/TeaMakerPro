@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/device_details"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:maxLength="4"
+            android:title="@string/terminalID"
+            android:key="terminalID"
+            android:defaultValue="@string/defaultValue"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="PhoneNo"
+            android:title="@string/device_phone"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="Factory"
+            android:title="@string/device_factory"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="device_serial"
+            android:title="@string/device_serial"
+            app:iconSpaceReserved="false"
+            app:enabled="false"
+            app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/company_details"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="company_prefix"
+            android:title="@string/company_prefix"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="company_name"
+            android:title="@string/company_name"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="company_letterbox"
+            android:title="@string/company_letterbox"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="company_postalcode"
+            android:title="@string/company_postalcode"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="company_postalname"
+            android:title="@string/company_postalname"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:key="company_postregion"
+            android:title="@string/company_postregion"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="company_posttel"
+            android:title="@string/company_posttel"
+            app:iconSpaceReserved="false"
+            app:enabled="false" />
+
+    </PreferenceCategory>
+
+
+    <EditTextPreference
+        android:inputType="number"
+        android:maxLength="2"
+        android:title="@string/autoLogout"
+        android:key="autoLogout"
+        android:defaultValue="5"
+        app:iconSpaceReserved="false"
+
+        />
+
+    <Preference
+        app:iconSpaceReserved="false"
+        android:key="btn_Refresh"
+        android:title="@string/refresh"
+        android:summary="@string/refreshSummary"
+
+        />
+
+
+</PreferenceScreen>

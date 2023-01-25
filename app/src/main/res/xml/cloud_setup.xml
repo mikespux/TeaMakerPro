@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/cloudSettings"
+        app:iconSpaceReserved="false">
+        <CheckBoxPreference
+            android:title="@string/cloudServices"
+            android:key="cloudServices"
+            android:summary="@string/cloudServicesSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:title="@string/realtimeServices"
+            android:key="realtimeServices"
+            android:summary="@string/realtimeServicesSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <CheckBoxPreference
+            android:title="@string/autorefreshMaster"
+            android:key="autorefreshMaster"
+            android:summary="@string/autorefreshMasterSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:title="@string/portalURL"
+            android:key="portalURL"
+            android:summary="@string/portalURLSummary"
+            android:defaultValue="@string/defaultURL"
+            app:iconSpaceReserved="false" />
+        <EditTextPreference
+            android:title="@string/mdportalURL"
+            android:key="mdportalURL"
+            android:summary="@string/mdportalURLSummary"
+            android:defaultValue="@string/defaultURL"
+            app:iconSpaceReserved="false" />
+
+        <EditTextPreference
+            android:title="@string/coPort"
+            android:key="coPort"
+            android:summary="@string/coPortSummary"
+            android:defaultValue="0"
+            app:iconSpaceReserved="false" />
+
+        <EditTextPreference
+            android:title="@string/coApp"
+            android:key="coApp"
+            android:summary="@string/coAppSummary"
+            android:defaultValue="Easyway.Net"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:entries="@array/internetAccessModeNames"
+            android:title="@string/internetAccessMode"
+            android:key="internetAccessModes"
+            android:summary="@string/internetAccessModeSummary"
+            android:entryValues="@array/internetAccessModes"
+            app:iconSpaceReserved="false" />
+
+
+        <CheckBoxPreference
+            android:title="@string/enablePrinting"
+            android:key="enablePrinting"
+            android:summary="@string/prefPrintingSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false" />
+        <CheckBoxPreference
+            android:title="@string/enableSMS"
+            android:key="enableSMS"
+            android:summary="@string/enableSMSSummary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
