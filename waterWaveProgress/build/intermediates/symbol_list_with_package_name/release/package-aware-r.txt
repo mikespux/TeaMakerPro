@@ -1,0 +1,14 @@
+cn.modificator.waterwave_progress
+attr fontSize
+attr maxProgress
+attr progress
+attr progress2WaterWidth
+attr progressBgColor
+attr progressColor
+attr progressWidth
+attr showNumerical
+attr showProgress
+attr textColor
+attr waterWaveBgColor
+attr waterWaveColor
+styleable WaterWaveProgress fontSize maxProgress progress progress2WaterWidth progressBgColor progressColor progressWidth showNumerical showProgress textColor waterWaveBgColor waterWaveColor

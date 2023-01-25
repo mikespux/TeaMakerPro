@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterWaveProgress">
+        <attr format="dimension" name="progressWidth"/>
+        <attr format="dimension" name="fontSize"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressBgColor"/>
+        <attr format="color" name="waterWaveColor"/>
+        <attr format="color" name="waterWaveBgColor"/>
+        <attr format="dimension" name="progress2WaterWidth"/>
+        <attr format="boolean" name="showProgress"/>
+        <attr format="boolean" name="showNumerical"/>
+        <attr format="color" name="textColor"/>
+        <attr format="integer" name="progress"/>
+        <attr format="integer" name="maxProgress"/>
+    </declare-styleable>
+</resources>

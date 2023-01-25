@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+attr? fontSize
+attr? maxProgress
+attr? progress
+attr? progress2WaterWidth
+attr? progressBgColor
+attr? progressColor
+attr? progressWidth
+attr? showNumerical
+attr? showProgress
+attr? textColor
+attr? waterWaveBgColor
+attr? waterWaveColor
+styleable WaterWaveProgress progressWidth fontSize progressColor progressBgColor waterWaveColor waterWaveBgColor progress2WaterWidth showProgress showNumerical textColor progress maxProgress
